@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+     background-image:
+    radial-gradient(
+      circle at top right,
+      #f8bb01,
+      #0090ff 57%);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background: cover;
+}
+/*    width: auto;*/
+   
+/*    background-image: url(../img/background%20photo.png);*/
+}
+
+
+nav button{
+    position: absolute;
+    top: 20px;
+    bottom: 9px;
+    padding-bottom: 20px;
+}
+.horse{
+    padding-top: 60px;
+    margin-top: 60px;
+    margin-bottom:60px;
+   /* margin-left: 500px;*/
+     position: relative;
+  -webkit-animation-name:welcome; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 6s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-fill-mode:forwards;
+  animation-name: welcome;
+  animation-duration: 6s;
+    animation-fill-mode: forwards;
+    display: inline-block;
+}
+
+.dog{
+    background: rgba(0,0,0,.75);
+    border-radius: 10px;
+    width: 500px;
+    /*margin: auto;*/
+    padding-top:20px ;
+    padding-right:20px ;
+    padding-bottom:20px ;
+    padding-left:20px ;
+    border-style: outset;
+    position: relative;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 6s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-fill-mode:forwards;
+  animation-name: example;
+  animation-duration: 6s;
+    animation-fill-mode: forwards;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+}
+
+
+/*
+.home{
+   position: fixed;
+    width: 30%;
+    left: 930px;
+    top: 520px;
+}
+*/
+
+.map{
+    position: absolute;
+    /*-ms-transform: skewX(120deg);
+    -webkit-transform: skewx(120deg);
+    transform: skewX(120deg);*/
+}
+lable{
+    margin: auto;
+}
+/*.dragon{
+    
+   
+    
+    /*margin-left: 20px;*/
+}*/
+.chaneleon{
+    margin-bottom:;
+    padding-bottom: 130px;
+    padding-left: px
+}
+.fly{
+    padding-bottom: 40px;
+    padding-left: 200px;
+    font-size: 20px
+}
+.cake{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+.dragon{
+    font-size: 20px;
+    
+}
+/*.IT{
+        position: relative;
+  -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 
+  animation: mymove 5s infinite;*/
+#I2{
+    margin-left: 40px
+}
+#I3{
+    margin-left: 60px
+}
+#I4{
+    margin-left: 20px
+}
+#I5{
+    margin-left: 90px
+}
+lable{
+    color: #5210BC;
+}
+p{
+    /*color: white;*/
+}
+
+
+
+/*menu button*/
+.boxSize{
+    width: 300px;
+    height: 50px;
+}
+
+.dropbtn {
+  background-color: #b1ae4a;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: fixed;
+  display: inline-block;
+    left: 1070px
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #d9b620;}
+
+.mother{
+/*    margin-top: 150px*/
+     position: relative;
+  -webkit-animation-name:con; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 6s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-fill-mode:forwards;
+  animation-name: con;
+  animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+
+
+
+.baby{
+    display: inline-block;
+    vertical-align:top
+}
+/*animation on home*/
+@-webkit-keyframes example {
+  from {left: 0px;}
+  to {left: 400px; }
+}
+
+@keyframes example {
+  from {left: 0px;}
+  to {left: 400px; }
+}
+@-webkit-keyframes welcome {
+  from {left: 0px;}
+  to {left: 550px; }
+}
+
+@keyframes welcome {
+  from {left: 0px;}
+  to {left: 550px; }
+}
+@-webkit-keyframes con {
+  from {top: 0px;}
+  to {top: 150px; }
+}
+
+@keyframes con {
+  from {top: 0px;}
+  to {top: 150px; }
+}
+
+#home{
+    opacity: 0.45;
+    position:fixed;
+    right: 0px;
+    bottom: 0px;
+    width: 50%;
+    flex: initial;
+}
+.enter {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+/*    cursor: pointer;*/
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    display: flex;
+    justify-content: center;
+}
+.enter:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/*clip-path: polygon(0 0,0% 100%,100% 100%);*/
